@@ -3,10 +3,10 @@ This is a demo project to show how to monitor web observatory grades using a CI 
 
 # Setup
 
-1.) Change the hosts listed in run.py to the hosts you want to monitor
-2.) Change the grades that are acceptable to you
-3.) Enable the project in Travis and setup a Cron job to run at whatever interval you wish
-4.) Profit or whatever else you need to do with your extra time
+1. Change the hosts listed in run.py to the hosts you want to monitor
+2. Change the grades that are acceptable to you
+3. Enable the project in Travis and setup a Cron job to run at whatever interval you wish
+4. Profit or whatever else you need to do with your extra time
 
 # Passing example (w/ zero exit, so it appears as clean run)
 

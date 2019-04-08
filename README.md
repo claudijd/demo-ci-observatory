@@ -8,6 +8,11 @@ This is a demo project to show how to monitor web observatory grades using a CI 
 3. Enable the project in Travis and setup a Cron job to run at whatever interval you wish
 4. Profit or whatever else you need to do with your extra time
 
+# Example Travis Build
+
+You should have something like [this](https://travis-ci.org/claudijd/demo-ci-observatory) when you are done.
+
+
 # Passing example (w/ zero exit, so it appears as clean run)
 
 $ python run.py 

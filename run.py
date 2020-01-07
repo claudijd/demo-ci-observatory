@@ -22,6 +22,12 @@ for expectation in expectations:
     scan_result = client.scan(site)
     grade_actual = scan_result['scan']['grade']
 
+    # retry only once if grade_actual not a valid grade
+    if grade_actual not in grade_order:
+        time.sleep(10)
+        scan_result = client.scan(site)
+        grade_actual = scan_result['scan']['grade']
+
     if grade_expectation == grade_actual:
         print(site + " meets compliance with a grade of " + grade_actual)
     else:
